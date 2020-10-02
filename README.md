@@ -30,3 +30,6 @@ For input file in.txt with content:
 7 10 9
 and command line arguments "in.txt 2 7" application should print following output:
 2 -> 8 -> 0 -> 9 -> 7-- 
+
+
+            LongOperationStatusDto cloned = (LongOperationStatusDto)super.clone();
